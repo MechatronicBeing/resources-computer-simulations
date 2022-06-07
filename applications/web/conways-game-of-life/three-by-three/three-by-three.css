@@ -1,0 +1,13 @@
+body {
+  background-color: #000000;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+canvas {
+  border: 2px solid black;
+}
